@@ -1,0 +1,145 @@
+uname = "root"
+pword = "123456"
+local side = "left"
+
+function os.pullEvent()
+local event, p1, p2, p3, p4, p5 = os.pullEventRaw()
+if event == "terminate" then
+end
+return event, p1, p2, p3, p4, p5
+end
+
+sleep (0.5)
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait.")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait..")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait...")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait....")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait.....")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait......")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait.......")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait........")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait.........")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading System Please Wait..........")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Boot")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Boot.")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Boot..")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Boot...")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Programs")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Programs.")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Programs..")
+sleep(0.25)
+
+term.clear()
+ term.setCursorPos(1,1)
+ print("Loading Programs...")
+sleep(0.25)
+
+term.clear()
+term.setCursorPos(1,1)
+ print '                   ------------'
+ print '                      Arc OS   '
+ print '                   ------------'
+
+write("Username: ")
+ username = read()
+ if username == (uname) then
+sleep(1)
+
+term.clear()
+ term.setCursorPos(1,1)
+
+ print '                   ------------'
+ print '                      Arc OS   '
+ print '                   ------------'
+
+write("Password: ")
+ password = read("*")
+
+if password == (pword) then
+ sleep(0.75)
+ term.clear()
+ term.setCursorPos(1,1)
+ print("Welcome Back User!")
+ shell.run("boot")
+
+else
+ print("Incorrect Password! Shutting Down System...!")
+ sleep(2)
+ shell.run("startup")
+end
+
+else
+ print("Incorrect Usrername! Shuttdown Down System...!")
+ sleep(2)
+ shell.run("startup")
+end
