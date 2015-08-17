@@ -6,7 +6,7 @@ local commands = {
  ["help"] = "lib/help",
  ["credits"] = "lib/credits",
  ["stargate"] = "programs/stargate",
- ["shell"] = "rom/progrmas/shell",
+ ["shell"] = "rom/programs/shell",
  
 }
 
