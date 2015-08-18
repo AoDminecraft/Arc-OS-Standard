@@ -1,3 +1,0 @@
- local side = "back"
- print("Turning Lights On")
- redstone.setOutput(side, true)
