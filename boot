@@ -9,7 +9,7 @@ local commands = {
  ["on"] = "lib/on",
  ["off"] = "lib/off",
  ["redstone"] = "lib/redstone",
- ["version"] = "Version 1.0.0",
+
 }
 
 local side = "back"
