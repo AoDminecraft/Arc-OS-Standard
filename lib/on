@@ -1,3 +1,3 @@
  local side = "back"
- print("Turning Lights On")
+ print("Redstone Activated")
  redstone.setOutput(side, true)
